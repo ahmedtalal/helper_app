@@ -37,12 +37,15 @@ dependencies:
   provider:
   shared_preferences:
   flutter_bloc: ^8.0.1
+<<<<<<< HEAD
   firebase_core:
   firebase_auth:
   cloud_firestore:
   firebase_storage:
   firebase_analytics:
 
+=======
+>>>>>>> c1cdf954aca0e2d19ee0fd31aa36ef4d41be91e2
 
 dev_dependencies:
   flutter_test:

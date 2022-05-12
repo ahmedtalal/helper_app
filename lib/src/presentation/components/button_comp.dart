@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:saied_app/src/config/screen_size.dart';
+<<<<<<< HEAD
+=======
+import 'package:saied_app/src/core/utils/colors_app.dart';
+>>>>>>> c1cdf954aca0e2d19ee0fd31aa36ef4d41be91e2
 import '../../core/utils/constants.dart';
 
 class ButtonComp extends StatelessWidget {

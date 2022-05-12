@@ -73,7 +73,11 @@ class SplashScreen extends StatelessWidget {
                     onPressed: () {
                       value.setTheme();
                     },
+<<<<<<< HEAD
                     child: const Text("data"));
+=======
+                    child: Text("data"));
+>>>>>>> c1cdf954aca0e2d19ee0fd31aa36ef4d41be91e2
               },
             )
           ],

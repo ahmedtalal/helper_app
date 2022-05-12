@@ -7,14 +7,20 @@ import '../../core/utils/constants.dart';
 class TextFormComp extends StatelessWidget {
   final String? hinttitle, labelTitle;
   final Function(String?) onChangeListener;
+<<<<<<< HEAD
   final String? Function(String?) onValidateListenser;
+=======
+>>>>>>> c1cdf954aca0e2d19ee0fd31aa36ef4d41be91e2
   final IconData? prefixIconData;
   const TextFormComp({
     Key? key,
     required this.hinttitle,
     required this.labelTitle,
     required this.onChangeListener,
+<<<<<<< HEAD
     required this.onValidateListenser,
+=======
+>>>>>>> c1cdf954aca0e2d19ee0fd31aa36ef4d41be91e2
     required this.prefixIconData,
   }) : super(key: key);
 
@@ -128,7 +134,10 @@ class TextFormComp extends StatelessWidget {
                     : false,
                 keyboardType: TextInputType.text,
                 onChanged: onChangeListener,
+<<<<<<< HEAD
                 validator: onValidateListenser,
+=======
+>>>>>>> c1cdf954aca0e2d19ee0fd31aa36ef4d41be91e2
               );
             },
           );

@@ -13,10 +13,13 @@ class Constants {
       "تطبيق سوشيال ميديا يساعدك في الحصول علي اشخاص يساعدوك في حلول مشاكلك";
   static const String splashDescription =
       "It is an application helps you to find other people to solve your problems";
+<<<<<<< HEAD
 
   static String successResponseType = "success";
   static String failedResponseType = "failed";
   static String fireAuthException = "firebaseAuthException";
   static String responseKey = "response";
   static String bodyKey = "body";
+=======
+>>>>>>> c1cdf954aca0e2d19ee0fd31aa36ef4d41be91e2
 }

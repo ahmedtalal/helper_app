@@ -41,12 +41,15 @@ class LoginFormComp extends StatelessWidget {
             hinttitle: 'Enter your email',
             labelTitle: 'Email',
             onChangeListener: (newValue) {},
+<<<<<<< HEAD
             onValidateListenser: (String? value) {
               if (value!.isEmpty) {
                 return "this field is required";
               }
               return null;
             },
+=======
+>>>>>>> c1cdf954aca0e2d19ee0fd31aa36ef4d41be91e2
             prefixIconData: Icons.email,
           ),
           const SizedBox(height: 15),
@@ -54,12 +57,15 @@ class LoginFormComp extends StatelessWidget {
             hinttitle: 'Enter your password',
             labelTitle: 'Password',
             onChangeListener: (newValue) {},
+<<<<<<< HEAD
             onValidateListenser: (String? value) {
               if (value!.isEmpty) {
                 return "this field is required";
               }
               return null;
             },
+=======
+>>>>>>> c1cdf954aca0e2d19ee0fd31aa36ef4d41be91e2
             prefixIconData: Icons.lock,
           ),
           Container(

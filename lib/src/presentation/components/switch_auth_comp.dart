@@ -1,5 +1,11 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:saied_app/src/config/screen_size.dart';
+=======
+import 'package:provider/provider.dart';
+import 'package:saied_app/src/config/screen_size.dart';
+import 'package:saied_app/src/presentation/logic/providers/app_theme_provider.dart';
+>>>>>>> c1cdf954aca0e2d19ee0fd31aa36ef4d41be91e2
 import '../../core/utils/constants.dart';
 
 class SwitchAuthComp extends StatelessWidget {

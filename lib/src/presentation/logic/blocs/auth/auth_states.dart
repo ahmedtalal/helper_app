@@ -1,8 +1,15 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:saied_app/src/core/utils/constants.dart';
 import 'package:saied_app/src/presentation/screens/auth/auth_screen.dart';
 import 'package:saied_app/src/presentation/screens/home_Screen.dart';
 import 'package:saied_app/src/presentation/screens/splasc_screen.dart';
+=======
+import 'package:saied_app/src/core/utils/colors_app.dart';
+
+import '../../../components/login_form_comp.dart';
+import '../../../components/register_form_comp.dart';
+>>>>>>> c1cdf954aca0e2d19ee0fd31aa36ef4d41be91e2
 
 abstract class AuthStates {
   const AuthStates();
@@ -10,6 +17,7 @@ abstract class AuthStates {
 
 class AuthInitialState extends AuthStates {
   const AuthInitialState();
+<<<<<<< HEAD
   Widget initialLoadingState() => const CircularProgressIndicator(
         strokeWidth: 1,
         color: Colors.blueGrey,
@@ -86,5 +94,26 @@ class SuccessUpdatePasswordState extends AuthStates {
         MaterialPageRoute(
           builder: (context) => const AuthScreen(),
         ),
+=======
+  Widget getLoginSection() => const LoginFormComp();
+}
+
+class LoginState extends AuthStates {
+  const LoginState();
+  Widget getLoginSection() => const LoginFormComp();
+}
+
+class RegisterState extends AuthStates {
+  const RegisterState();
+  Widget getRegisterSection() => const RegisterFormComp();
+}
+
+class AuthErrorState extends AuthStates {
+  const AuthErrorState();
+  Widget loginError() => const CircularProgressIndicator(
+        color: ColorsApp.backgroundColor,
+        strokeWidth: 3,
+        value: 5,
+>>>>>>> c1cdf954aca0e2d19ee0fd31aa36ef4d41be91e2
       );
 }
