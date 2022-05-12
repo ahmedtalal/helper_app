@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "338413898018",
+    "firebase_url": "https://tchat-app-cd268.firebaseio.com",
+    "project_id": "tchat-app-cd268",
+    "storage_bucket": "tchat-app-cd268.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338413898018:android:a5dd79e83c79164ba63d7b",
+        "android_client_info": {
+          "package_name": "ahmed.fluttercoder.instagram_clone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338413898018-d4lnon7mih5r6decj1d2009i0mga2m1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeWJF5PyyGnA6GBqLU1lpVB6R24OPxA8c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338413898018-d4lnon7mih5r6decj1d2009i0mga2m1a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338413898018:android:b9ace32ef2891e4d",
+        "android_client_info": {
+          "package_name": "ahmed.javcoder.tchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338413898018-1pc75ivfsecp27eg6i9a1fllnd5n3olc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ahmed.javcoder.tchat",
+            "certificate_hash": "196a53cb7acc706089db6b94e4d5f9621fa2bb19"
+          }
+        },
+        {
+          "client_id": "338413898018-d4lnon7mih5r6decj1d2009i0mga2m1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeWJF5PyyGnA6GBqLU1lpVB6R24OPxA8c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338413898018-d4lnon7mih5r6decj1d2009i0mga2m1a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338413898018:android:02935f925b2f8706a63d7b",
+        "android_client_info": {
+          "package_name": "com.example.saied_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338413898018-d4lnon7mih5r6decj1d2009i0mga2m1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeWJF5PyyGnA6GBqLU1lpVB6R24OPxA8c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338413898018-d4lnon7mih5r6decj1d2009i0mga2m1a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338413898018:android:30fc4ae2cfd3f1ada63d7b",
+        "android_client_info": {
+          "package_name": "com.javcoder.tchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338413898018-d4lnon7mih5r6decj1d2009i0mga2m1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeWJF5PyyGnA6GBqLU1lpVB6R24OPxA8c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338413898018-d4lnon7mih5r6decj1d2009i0mga2m1a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
