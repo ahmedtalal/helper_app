@@ -21,6 +21,8 @@ class AppThemeProvider extends ChangeNotifier {
     notifyListeners();
   }
 
+  bool checkMode() => _isDark;
+
   setTheme() async {
     _isDark = !_isDark;
     await isharedRepository.savedData(_isDark).then((bool value) {
